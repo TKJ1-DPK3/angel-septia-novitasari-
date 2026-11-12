@@ -1,4 +1,4 @@
-print("===== KASIR MINI =====")
+#print("===== KASIR MINI =====")
 
 nama_barang = input("Masukkan nama barang: ")
 
@@ -39,10 +39,3 @@ while True:
 
     except ValueError:
         print("Input harus berupa angka! Silakan masukkan lagi.")
-
-# Menghitung uang kembalian
-kembalian = pembayaran - total
-
-print("Kembalian   : Rp", kembalian)
-print("============================")
-print("Terima kasih telah berbelanja!")
